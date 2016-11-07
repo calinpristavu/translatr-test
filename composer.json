@@ -19,7 +19,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/balazscsaba2006/TranslatrBundle"
+            "url": "https://github.com/calinpristavu/TranslatrBundle"
         }
     ],
     "require": {
@@ -38,8 +38,9 @@
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
         "symfony/phpunit-bridge": "^3.0",
-        "evozon/translatr": "dev-master",
-        "onesky/api-library-php5": "^1.0"
+        "evozon/translatr-bundle": "dev-master",
+        "onesky/api-library-php5": "^1.0",
+        "phpunit/phpunit": "^5.6"
     },
     "scripts": {
         "symfony-scripts": [
@@ -59,7 +60,7 @@
     },
     "config": {
         "platform": {
-            "php": "5.5.9"
+            "php": "7.0"
         }
     },
     "extra": {
